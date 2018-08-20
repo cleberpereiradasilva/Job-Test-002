@@ -4,7 +4,7 @@
   "description": "A escolha da linguagem é deixada para você, utilize **a que você se sente mais confortável**. A entrada deverá ser por `STDIN` (*standard input*) e a saída por `STDOUT` (*standard output*) na linguagem que você escolher.",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",    
+    "test": "jest --coverage",
     "pretest": "eslint .",
     "start": "npm run pretest; babel-node src/app.js",
     "build": "babel src -d dist; node dist/app.js"

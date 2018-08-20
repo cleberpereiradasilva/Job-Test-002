@@ -1,0 +1,15 @@
+{
+    "extends": "airbnb-base",
+    "rules": {    	
+        "semi": ["error", "never"],
+        "indent": ["error", "tab"],
+        "no-console": "off",        
+        "no-tabs": "off",
+        "no-trailing-spaces": "off",
+        "no-lonely-if" : "off",
+        "strict" : "off"
+    },
+    "env": {
+	    "jest": true
+	}  
+}
