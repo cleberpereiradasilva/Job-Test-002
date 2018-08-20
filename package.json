@@ -1,0 +1,36 @@
+{
+  "name": "cleber-da-silva",
+  "version": "1.0.0",
+  "description": "A escolha da linguagem é deixada para você, utilize **a que você se sente mais confortável**. A entrada deverá ser por `STDIN` (*standard input*) e a saída por `STDOUT` (*standard output*) na linguagem que você escolher.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage",    
+    "pretest": "eslint .",
+    "start": "npm run pretest; babel-node src/app.js",
+    "build": "babel src -d dist; node dist/app.js"
+  },
+  "eslintConfig": {
+    "env": {
+      "node": true
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SelecaoGlobocom/cleber-da-silva.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SelecaoGlobocom/cleber-da-silva/issues"
+  },
+  "homepage": "https://github.com/SelecaoGlobocom/cleber-da-silva#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest-cli": "^23.5.0"
+  }
+}
