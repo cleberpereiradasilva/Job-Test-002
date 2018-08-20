@@ -99,7 +99,3 @@ Aguardar a mensagem: "Enter your data to convert"
 
 ![Output](https://i.imgur.com/SVCedVKl.png)
 
-
----
-# OBRIGADO PELA OPORTUNIDADE
----
